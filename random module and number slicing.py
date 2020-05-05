@@ -11,3 +11,4 @@ def rotate_left3(nums):
   return nums[1:] + nums[0]
 list2= random.sample(range(0,50),3)
 print((list2))
+
