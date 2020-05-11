@@ -1,3 +1,10 @@
-multiplication = int((input("number to multiply between 1 and 10: "))
-for i in range(1,11):
-    print(multiplication, 'x', i, '=', multiplication*i)
+#The parameter weekday is True if it is a weekday, 
+# and the parameter vacation is True if we are on vacation.
+# We sleep in if it is not a weekday or we're on vacation. 
+# Return True if we sleep in.
+def sleep_in(weekday, vacation):
+    
+  if not weekday or vacation:
+    return True 
+  else:
+    return False
